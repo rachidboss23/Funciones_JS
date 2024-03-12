@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets\JS\css\style.css">
+</head>
+<body>
+  
+  <div id="ele1" onclick="pintar('ele1', 'green')"> <H1>HELLO</H1> </div>
+
+<div class="colores">
+
+<div id="a" style="background-color: blue; width: 200px; height: 200px;"></div>
+<div id="s" style="background-color: red; width: 200px; height: 200px;"></div>
+
+<div id="c" style="background-color: green; width: 200px; height: 200px;"></div>
+<div id="d" style="background-color: yellow; width: 200px; height: 200px;"></div>
+</div>
+
+</div>
+<a href="index.html">Ir a Primer Desafio</a>
+<script>   
+const diva =document.getElementById("a")
+const divs =document.getElementById("s")
+const divc =document.getElementById("c")
+const divd =document.getElementById("d")
+
+const colorBlack = (e) =>{
+  e.target.style.background= 'black'
+
+}
+
+diva.addEventListener('click',colorBlack )
+divs.addEventListener('click',colorBlack )
+divc.addEventListener('click',colorBlack )
+divd.addEventListener('click',colorBlack )
+
+
+</script>
+<script src="key.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
